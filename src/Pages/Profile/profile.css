@@ -1,0 +1,11 @@
+.profile__container {
+  background-color: rgb(235, 238, 242);
+  /* height: 100vh; */
+}
+
+.sub-profile__container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,81 @@
+.leftbar {
+  flex: 1;
+}
+.notifications__container {
+  width: 18rem;
+  height: 60vh;
+  background-color: white;
+  margin-top: 1.25rem;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.notifications__header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.see-all {
+  color: #aaa;
+}
+
+.notifications__content {
+  display: flex;
+  align-items: center;
+  margin-top: 1.3rem;
+}
+.notifications__content p {
+  width: 7.5rem;
+  color: #aaa;
+  font-size: 0.85rem;
+  text-align: start;
+  margin: 0 0 0 0.313rem;
+}
+
+.notifications__profile-image {
+  width: 2.188rem;
+  height: 2.188rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 0.625rem;
+}
+
+.notifications__like-image {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 0.188rem;
+  -webkit-border-radius: 0.188rem;
+  -moz-border-radius: 0.188rem;
+  -ms-border-radius: 0.188rem;
+  -o-border-radius: 0.188rem;
+  margin-left: 2.688rem;
+}
+.notifications__follow-image {
+  width: 2.188rem;
+  height: 2.188rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 2.49rem;
+}
+
+.notifications__explore-image {
+  width: 5.2rem;
+  height: 9.3rem;
+  object-fit: cover;
+  margin: 0.2rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}

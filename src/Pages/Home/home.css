@@ -1,0 +1,10 @@
+.home {
+  background-color: rgb(235, 238, 242);
+}
+
+.components-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
